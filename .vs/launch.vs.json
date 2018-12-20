@@ -1,0 +1,12 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "name": "routes.js",
+      "program": "src\\server\\index.js",
+      "project": "src\\server\\routes.js",
+      "type": "default"
+    }
+  ]
+}
