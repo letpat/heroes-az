@@ -132,13 +132,13 @@ var HeroService = /** @class */ (function () {
         return this.http.get(api + "/heroes");
     };
     HeroService.prototype.deleteHero = function (hero) {
-        return this.http.delete(api + "/hero/" + hero.id);
+        return this.http.delete(api + "/hero/" + hero.uid);
     };
     HeroService.prototype.addHero = function (hero) {
         return this.http.post(api + "/hero/", hero);
     };
     HeroService.prototype.updateHero = function (hero) {
-        return this.http.put(api + "/hero/" + hero.id, hero);
+        return this.http.put(api + "/hero/" + hero.uid, hero);
     };
     HeroService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
@@ -178,7 +178,7 @@ var Hero = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\r\n    <ul class=\"heroes\">\r\n        <li *ngFor=\"let hero of heroes\" (click)=\"onSelect(hero)\" [class.selected]=\"hero === selectedHero\">\r\n            <button class=\"delete-button\" (click)=\"deleteHero(hero)\">Delete</button>\r\n            <div class=\"hero-element\">\r\n                <div class=\"badge\">{{hero.id}}</div>\r\n                <div class=\"name\">{{hero.name}}</div>\r\n                <div class=\"saying\">{{hero.saying}}</div>\r\n            </div>\r\n        </li>\r\n    </ul>\r\n    <div class=\"editarea\">\r\n        <button (click)=\"enableAddMode()\">Add New Hero</button>\r\n        <div *ngIf=\"selectedHero\">\r\n            <div class=\"editfields\">\r\n                <div>\r\n                    <label>id: </label>\r\n                    <input [(ngModel)]=\"selectedHero.id\" placeholder=\"id\" *ngIf=\"addingHero\" />\r\n                    <label *ngIf=\"!addingHero\" class=\"value\">{{selectedHero.id}}</label>\r\n                </div>\r\n                <div>\r\n                    <label>name: </label>\r\n                    <input [(ngModel)]=\"selectedHero.name\" placeholder=\"name\" />\r\n                </div>\r\n                <div>\r\n                    <label>saying: </label>\r\n                    <input [(ngModel)]=\"selectedHero.saying\" placeholder=\"saying\" />\r\n                </div>\r\n            </div>\r\n            <button (click)=\"cancel()\">Cancel</button>\r\n            <button (click)=\"save()\">Save</button>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
+module.exports = "<div>\r\n    <ul class=\"heroes\">\r\n        <li *ngFor=\"let hero of heroes\" (click)=\"onSelect(hero)\" [class.selected]=\"hero === selectedHero\">\r\n            <button class=\"delete-button\" (click)=\"deleteHero(hero)\">Delete</button>\r\n            <div class=\"hero-element\">\r\n                <div class=\"badge\">{{hero.uid}}</div>\r\n                <div class=\"name\">{{hero.name}}</div>\r\n                <div class=\"saying\">{{hero.saying}}</div>\r\n            </div>\r\n        </li>\r\n    </ul>\r\n    <div class=\"editarea\">\r\n        <button (click)=\"enableAddMode()\">Add New Hero</button>\r\n        <div *ngIf=\"selectedHero\">\r\n            <div class=\"editfields\">\r\n                <div>\r\n                    <label>id: </label>\r\n                    <input [(ngModel)]=\"selectedHero.uid\" placeholder=\"uid\" *ngIf=\"addingHero\" />\r\n                    <label *ngIf=\"!addingHero\" class=\"value\">{{selectedHero.uid}}</label>\r\n                </div>\r\n                <div>\r\n                    <label>name: </label>\r\n                    <input [(ngModel)]=\"selectedHero.name\" placeholder=\"name\" />\r\n                </div>\r\n                <div>\r\n                    <label>saying: </label>\r\n                    <input [(ngModel)]=\"selectedHero.saying\" placeholder=\"saying\" />\r\n                </div>\r\n            </div>\r\n            <button (click)=\"cancel()\">Cancel</button>\r\n            <button (click)=\"save()\">Save</button>\r\n        </div>\r\n    </div>\r\n</div>\r\n"
 
 /***/ }),
 
@@ -189,7 +189,7 @@ module.exports = "<div>\r\n    <ul class=\"heroes\">\r\n        <li *ngFor=\"let
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9hcHAvaGVyb2VzLmNvbXBvbmVudC5zY3NzIn0= */"
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAvaGVyb2VzLmNvbXBvbmVudC5zY3NzIn0= */"
 
 /***/ }),
 

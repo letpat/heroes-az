@@ -4,12 +4,13 @@ const Schema = mongoose.Schema;
 
 const heroSchema = new Schema(
     {
-        id: { type: Number, required: true, unique: true },
+        uid: { type: Number, required: true, unique: true },
         name: String,
         saying: String
     },
     {
-        collection: 'Heroes'
+        collection: 'Heroes',
+        read: 'nearest'
     }
 );
 
