@@ -1,11 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+    "\\bin\\Debug",
+    "\\bin\\Release",
     "\\src",
     "\\src\\app",
     "\\src\\assets",
     "\\src\\environments",
     "\\src\\server"
   ],
+  "SelectedNode": "\\src\\app\\hero.service.ts",
   "PreviewInSolutionExplorer": true
 }
