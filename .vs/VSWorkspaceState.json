@@ -5,10 +5,8 @@
     "\\src\\app",
     "\\src\\assets",
     "\\src\\environments",
-    "\\src\\server",
-    "\\src\\server\\dist",
-    "\\src\\server\\env"
+    "\\src\\server"
   ],
-  "SelectedNode": "\\src\\server\\hero.service.js",
+  "SelectedNode": "\\src\\server\\index.js",
   "PreviewInSolutionExplorer": true
 }
