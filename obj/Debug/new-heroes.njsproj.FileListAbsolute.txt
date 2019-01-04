@@ -1,3 +1,0 @@
-C:\Users\letai\source\repos\heroes-az\obj\Debug\new-heroes.njsprojAssemblyReference.cache
-C:\Users\letai\source\repos\heroes-az\obj\Debug\new-heroes.njsproj.CoreCompileInputs.cache
-C:\Users\letai\source\repos\heroes-az\bin\Microsoft.NodejsTools.WebRole.dll

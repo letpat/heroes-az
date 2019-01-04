@@ -1,2 +1,0 @@
-C:\Users\letai\source\repos\angular-cosmosdb\obj\x86\Debug\angular cosmosdb.csprojAssemblyReference.cache
-C:\Users\letai\source\repos\angular-cosmosdb\obj\x86\Debug\angular cosmosdb.csproj.CoreCompileInputs.cache
