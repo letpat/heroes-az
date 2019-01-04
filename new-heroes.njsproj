@@ -31,16 +31,11 @@
     </Content>
     <Content Include="tsconfig.json" />
     <Content Include="README.md" />
-    <Content Include="publish\index.html" />
-    <Content Include="publish\favicon.ico" />
-    <Content Include="publish\angular.json" />
-    <Content Include="publish\package.json" />
     <Content Include="src\index.html" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\tsconfig.app.json" />
     <TypeScriptCompile Include="src\main.ts" />
     <TypeScriptCompile Include="src\polyfills.ts" />
-    <Content Include="obj\x86\Debug\angular cosmosdb.csproj.FileListAbsolute.txt" />
     <Content Include="src\app\heroes.component.html" />
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\app.module.ts" />
@@ -58,13 +53,6 @@
     <Folder Include="bin\Release" />
     <Folder Include="new-heroes" />
     <Folder Include="new-heroes\new-heroes" />
-    <Folder Include="obj" />
-    <Folder Include="obj\x86" />
-    <Folder Include="obj\x86\Debug" />
-    <Folder Include="obj\x86\Debug\TempPE" />
-    <Folder Include="obj\x86\Release" />
-    <Folder Include="publish" />
-    <Folder Include="publish\env" />
     <Folder Include="src" />
     <Folder Include="src\app" />
     <Folder Include="src\assets" />
