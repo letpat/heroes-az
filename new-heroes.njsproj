@@ -24,6 +24,9 @@
   <ItemGroup>
     <Content Include="angular.json" />
     <None Include="letpat-heroes - Web Deploy.pubxml" />
+    <Content Include="azure-pipelines.yml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package-lock.json" />
     <Content Include="package.json" />
     <Content Include="src\web.config">
